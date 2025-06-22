@@ -1,0 +1,9 @@
+@page
+@model IndexModel
+<h1>Admin Panel</h1>
+<ul>
+@foreach (var author in Model.Authors)
+{
+    <li>@author.Name</li>
+}
+</ul>
